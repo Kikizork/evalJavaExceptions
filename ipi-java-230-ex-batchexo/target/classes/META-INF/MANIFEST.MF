@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: java230
+Implementation-Version: 1.0-SNAPSHOT
+Built-By: frederic.enee
+Implementation-Vendor-Id: com.ipiecoles.java
+Build-Jdk: 1.8.0_241
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/java230
+Created-By: Maven Integration for Eclipse
+
