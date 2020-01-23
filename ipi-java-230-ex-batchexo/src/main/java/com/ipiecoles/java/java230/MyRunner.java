@@ -52,12 +52,7 @@ public class MyRunner implements CommandLineRunner {
     		}};
     private static final String REGEX_NOM = ".*";
     private static final String REGEX_PRENOM = ".*";
-    private static final Map<String, Integer> CHANGE = new HashMap<String,Integer>()
-    		{{put(TECHNICIEN, 7);put(MANAGER, 5);put(COMMERCIAL, 7);}};
     private static final String REGEX_MATRICULE_MANAGER = "^M[0-9]{5}$";
-    private static final String MANAGER = "manager";
-    private static final String COMMERCIAL = "commercial";
-    private static final String TECHNICIEN = "technicien";
 
     @Autowired
     private EmployeRepository employeRepository;
